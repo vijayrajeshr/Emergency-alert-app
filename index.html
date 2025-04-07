@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNSM Emergency Alert System</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Leaflet.js for OpenStreetMap (No API Key Needed) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+         Emergency Alert System
+    </header>
+    <stamp>
+        ©vijayrajeshr@gmail.com
+    </stamp>
+
+    <main>
+        <section id="map-container">
+            <h2>Your Location</h2>
+            <div id="map"></div>
+        </section>
+
+        <section id="alert-section">
+            <h2>Emergency Alert</h2>
+            <button id="alert-button">Help Me!!!</button>
+            <p id="alert-message"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© vijay-fnsm-mark-1</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
